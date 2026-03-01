@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Gelsin",
+    "slug": "gelsin-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1D4ED8"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.gelsin.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Yakındaki ustaları görmek için konumuna ihtiyacımız var.",
+        "NSCameraUsageDescription": "Kamera izni gerekiyor.",
+        "NSPhotoLibraryUsageDescription": "Galeri izni gerekiyor."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#1D4ED8"
+      },
+      "package": "com.gelsin.app"
+    },
+    "plugins": ["expo-router", "expo-location", "expo-camera"],
+    "scheme": "gelsin",
+    "extra": {
+      "eas": {
+        "projectId": "de798ac6-e530-4129-9d62-5b7698405c13"
+      }
+    }
+  }
+}
